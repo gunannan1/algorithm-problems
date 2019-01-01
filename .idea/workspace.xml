@@ -2,217 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc6e94f0-25e5-4594-b32a-58ccc6dc8891" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/P56.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E22.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E23.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E24.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E25.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E26.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E27.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E28.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E29.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E30.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E31.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E32.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E33.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E34.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E35.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E36.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E37.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E38.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E39.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E40.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E41.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E42.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E43.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E44$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E44.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E45$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E45.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E46.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E47.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E48.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E49.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E50$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E50.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E51.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E52.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E53.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E54.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E55.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E56.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E57.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E58.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E59.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E60.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E61.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E62.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E63.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E64.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E65.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E66.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E67.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E68.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E69.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E70$QueueWithMax$InternalData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E70$QueueWithMax.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E70.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E71.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E72.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E73.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E74.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E75.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E76.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E77.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E78.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E79.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E80.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/ListNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/RandomListNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/TreeLinkNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/TreeNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LRUCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/ListNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/MinStack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/MyQueue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/MyStack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Node.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P100.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P101.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P104.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P105.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P110.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P121.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P136.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P138.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P141.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P146.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P153.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P155.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P160.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P169.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P191.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P198.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P206.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P22.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P225.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P226.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P232.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P234.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P237.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P24.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P25.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P26.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P268.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P27.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P28.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P287.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P33.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P34.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P35.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P39.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P46.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P48.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P49.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P50.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P53.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P55.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P572.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P58.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P62.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P64.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P66.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P69.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P70.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P74.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P79.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P82.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P83.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P86.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P88.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P92.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/RandomListNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/TreeNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/Consumer03.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/PrintAB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/Producer03.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/ShengchanXiaofei01.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/ShengchanXiaofei02.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/ShengchanXiaofei03.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/Thread01$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/Thread01$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/Thread01.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/search/Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/search/binary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/BubbleSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/HeapSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/InsertionSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/MergeSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/QuickSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/RadixSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/SelectionSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/ShellSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/tree/TreeNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/tree/traversal.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode.iml" afterPath="$PROJECT_DIR$/leetcode.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -229,16 +20,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1980">
               <caret line="132" column="13" lean-forward="false" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="E57.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jzoffer/E57.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -328,9 +109,66 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1546357500722" expanded="true" signature="59165:59518" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="59166:59503" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="59228:59490" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="59272:59472" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="59553:62315" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="59566:62300" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="59620:59915" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="59639:59900" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="59702:59880" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="59742:59846" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="59763:59824" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="59965:60292" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="59984:60277" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="60079:60257" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="60119:60223" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="60140:60201" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="60343:60608" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="60362:60593" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="60395:60573" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="60435:60539" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="60456:60517" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="60651:60955" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="60670:60940" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="60742:60920" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="60782:60886" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="60803:60864" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61006:61317" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61025:61302" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61104:61282" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61144:61248" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61165:61226" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61352:61656" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61371:61641" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61443:61621" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61483:61587" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61504:61565" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61708:61973" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61727:61958" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61760:61938" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61800:61904" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="61821:61882" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="62021:62286" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="62040:62271" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="62073:62251" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="62113:62217" ph="..." />
+                <marker date="1546357500722" expanded="true" signature="62134:62195" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -389,8 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/jzoffer/E72.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/P2.java" />
         <option value="$PROJECT_DIR$/src/leetcode/P4.java" />
         <option value="$PROJECT_DIR$/src/leetcode/P14.java" />
         <option value="$PROJECT_DIR$/src/leetcode/P49.java" />
@@ -440,6 +276,8 @@
         <option value="$PROJECT_DIR$/src/mianshi/ShengchanXiaofei03.java" />
         <option value="$PROJECT_DIR$/src/mianshi/ShengchanXiaofei02.java" />
         <option value="$PROJECT_DIR$/src/mianshi/ShengchanXiaofei01.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -811,7 +649,7 @@
       <workItem from="1546093453857" duration="11956000" />
       <workItem from="1546238600619" duration="1328000" />
       <workItem from="1546260101851" duration="515000" />
-      <workItem from="1546357014961" duration="327000" />
+      <workItem from="1546357014961" duration="489000" />
     </task>
     <task id="LOCAL-00001" summary="新增生产者消费者">
       <created>1546176491388</created>
@@ -820,11 +658,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546176491388</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ignore">
+      <created>1546357389338</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546357389339</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264324000" />
+    <option name="totallyTimeSpent" value="264486000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -901,7 +746,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增生产者消费者" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增生产者消费者" />
+    <MESSAGE value="ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -924,13 +770,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sort/RadixSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/P237.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -1296,10 +1135,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1546357500722" expanded="true" signature="59165:59518" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="59166:59503" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="59228:59490" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="59272:59472" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="59553:62315" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="59566:62300" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="59620:59915" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="59639:59900" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="59702:59880" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="59742:59846" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="59763:59824" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="59965:60292" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="59984:60277" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="60079:60257" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="60119:60223" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="60140:60201" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="60343:60608" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="60362:60593" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="60395:60573" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="60435:60539" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="60456:60517" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="60651:60955" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="60670:60940" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="60742:60920" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="60782:60886" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="60803:60864" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61006:61317" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61025:61302" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61104:61282" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61144:61248" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61165:61226" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61352:61656" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61371:61641" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61443:61621" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61483:61587" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61504:61565" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61708:61973" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61727:61958" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61760:61938" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61800:61904" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="61821:61882" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="62021:62286" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="62040:62271" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="62073:62251" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="62113:62217" ph="..." />
+            <marker date="1546357500722" expanded="true" signature="62134:62195" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
         </state>
       </provider>
