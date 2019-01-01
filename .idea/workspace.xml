@@ -2,11 +2,217 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc6e94f0-25e5-4594-b32a-58ccc6dc8891" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/P56.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E18.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E20.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E21.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E22.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E23.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E24.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E25.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E26.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E27.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E28.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E29.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E30.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E31.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E32.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E33.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E34.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E35.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E36.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E37.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E38.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E39.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E40.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E41.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E42.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E43.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E44$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E44.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E45$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E45.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E46.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E47.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E48.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E49.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E50$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E50.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E51.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E52.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E53.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E54.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E55.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E56.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E57.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E58.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E59.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E60.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E61.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E62.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E63.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E64.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E65.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E66.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E67.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E68.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E69.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E70$QueueWithMax$InternalData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E70$QueueWithMax.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E70.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E71.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E72.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E73.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E74.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E75.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E76.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E77.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E78.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E79.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E80.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/E9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/ListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/RandomListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/TreeLinkNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/jzoffer/TreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LRUCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/ListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/MinStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/MyQueue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/MyStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P100.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P101.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P104.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P105.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P110.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P121.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P136.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P138.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P141.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P146.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P153.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P155.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P160.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P169.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P18.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P191.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P198.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P20.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P206.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P21.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P22.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P225.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P226.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P232.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P234.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P237.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P24.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P25.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P26.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P268.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P27.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P28.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P287.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P33.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P34.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P35.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P39.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P46.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P48.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P49.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P50.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P53.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P55.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P572.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P58.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P62.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P64.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P66.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P69.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P70.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P74.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P79.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P82.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P83.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P86.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P88.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/P92.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/RandomListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/TreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/Consumer03.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/PrintAB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/Producer03.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/ShengchanXiaofei01.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/ShengchanXiaofei02.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/ShengchanXiaofei03.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/Thread01$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/Thread01$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/mianshi/Thread01.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/questions/Q9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/search/Graph.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/search/binary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/BubbleSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/HeapSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/InsertionSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/MergeSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/QuickSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/RadixSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/SelectionSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/sort/ShellSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/tree/TreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leetcode/tree/traversal.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mianshi/ShengchanXiaofei01.java" afterPath="$PROJECT_DIR$/src/mianshi/ShengchanXiaofei01.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mianshi/ShengchanXiaofei02.java" afterPath="$PROJECT_DIR$/src/mianshi/ShengchanXiaofei02.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mianshi/ShengchanXiaofei03.java" afterPath="$PROJECT_DIR$/src/mianshi/ShengchanXiaofei03.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode.iml" afterPath="$PROJECT_DIR$/leetcode.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,18 +227,8 @@
       <file leaf-file-name="list.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
+            <state relative-caret-position="1980">
               <caret line="132" column="13" lean-forward="false" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="E58.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jzoffer/E58.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -48,10 +244,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShengchanXiaofei01.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShengchanXiaofei01.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mianshi/ShengchanXiaofei01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="225">
               <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,10 +256,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ShengchanXiaofei02.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mianshi/ShengchanXiaofei02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="75">
               <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,19 +284,21 @@
       <file leaf-file-name="ShengchanXiaofei03.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mianshi/ShengchanXiaofei03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="15" column="50" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="15" selection-end-column="50" />
+            <state relative-caret-position="316">
+              <caret line="94" column="6" lean-forward="false" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-                <element signature="e#1518#1519#0" expanded="true" />
-                <element signature="e#1550#1551#0" expanded="true" />
-                <element signature="e#2038#2039#0" expanded="true" />
-                <element signature="e#2070#2071#0" expanded="true" />
-                <element signature="e#2602#2603#0" expanded="true" />
-                <element signature="e#2634#2635#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="P56.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/P56.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,7 +306,7 @@
       <file leaf-file-name="P22.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/P22.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="510">
               <caret line="35" column="5" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,18 +315,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="E59.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jzoffer/E59.java">
+      <file leaf-file-name="leetcode.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leetcode.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode.iml">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -135,7 +346,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>threshold</find>
       <find>resize</find>
       <find>size</find>
       <find>execute</find>
@@ -165,6 +375,7 @@
       <find>trylock</find>
       <find>lockIn</find>
       <find>long</find>
+      <find>HASH_BITS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -275,7 +486,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,36 +495,16 @@
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mianshi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mianshi" type="462c0819:PsiDirectoryNode" />
-              <item name="ShengchanXiaofei01.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mianshi" type="462c0819:PsiDirectoryNode" />
-              <item name="ShengchanXiaofei03.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,11 +576,11 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="mianshi.ShengchanXiaofei01" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -618,12 +808,23 @@
       <workItem from="1544755959754" duration="8118000" />
       <workItem from="1545446503588" duration="17961000" />
       <workItem from="1545636442634" duration="11915000" />
-      <workItem from="1546093453857" duration="11216000" />
+      <workItem from="1546093453857" duration="11956000" />
+      <workItem from="1546238600619" duration="1328000" />
+      <workItem from="1546260101851" duration="515000" />
+      <workItem from="1546357014961" duration="327000" />
     </task>
+    <task id="LOCAL-00001" summary="新增生产者消费者">
+      <created>1546176491388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546176491388</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261414000" />
+    <option name="totallyTimeSpent" value="264324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -635,24 +836,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="800" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3248227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32768363" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21702127" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2609929" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32907802" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32763532" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23032904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23891273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33048433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -663,14 +862,46 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3248227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33048433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增生产者消费者" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增生产者消费者" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -693,46 +924,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/P39.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/RadixSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="e#621#641#0" expanded="true" />
-            <element signature="e#737#746#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,7 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,7 +1146,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,7 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,7 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,7 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,7 +1174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -992,7 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,7 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,7 +1195,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,6 +1202,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="132" column="13" lean-forward="false" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/P22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mianshi/ShengchanXiaofei01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/leetcode/mianshi/ShengchanXiaofei02.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mianshi/ShengchanXiaofei02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="668" column="70" lean-forward="false" selection-start-line="668" selection-start-column="70" selection-end-line="668" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mianshi/ShengchanXiaofei03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="94" column="6" lean-forward="false" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/P56.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1028,67 +1296,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="132" column="13" lean-forward="false" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/P22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mianshi/ShengchanXiaofei03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="15" column="50" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="15" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2070#2071#0" expanded="true" />
-            <element signature="e#2602#2603#0" expanded="true" />
-            <element signature="e#2634#2635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mianshi/ShengchanXiaofei02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mianshi/ShengchanXiaofei01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1149,7 +1361,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
