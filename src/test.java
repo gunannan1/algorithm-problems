@@ -1,6 +1,17 @@
+import java.io.IOException;
+
 public class test {
     public static void main(String[] args) {
-        System.out.println(147%16);
-        System.out.println(147&15);
+        try{
+            func();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+    }
+
+
+    public static void func(){
+        throw new RuntimeException();
     }
 }

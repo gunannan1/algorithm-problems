@@ -31,27 +31,30 @@ public class QuickSort {
     }
 
     private static int partition(int[] n, int start, int end) {
-        int tmp = n[start];
+        int tmp;
+        int val=n[start];
+        int p=start;
         while (start < end) {
-            while (n[end] >= tmp && start < end){
+            while (n[end] >= val && start < end){
                 end--;
             }
-            if (start < end) {
-                n[start++] = n[end];
-            }
-            while (n[start] < tmp && start < end){
+            while (n[start] <= val && start < end){
                 start++;
             }
-            if (start < end) {
-                n[end--] = n[start];
-            }
+            tmp=n[end];
+            n[end]=n[start];
+            n[start]=tmp;
+
         }
-        n[start] = tmp;
+        tmp=n[start];
+        n[start]=val;
+        n[p]=tmp;
         return start;
     }
 
+
     public static void main(String[] args) {
-        int[] a={3,10,6,2,8,7,0,4};
+        int[] a={3,10,6,2,8,7,0,4,12,43,2,1};
         quickSort(a,0,a.length-1);
         System.out.println(Arrays.toString(a));
     }
