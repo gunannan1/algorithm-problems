@@ -1,17 +1,11 @@
 import java.io.IOException;
+import java.util.PriorityQueue;
 
 public class test {
     public static void main(String[] args) {
-        try{
-            func();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-
-    }
-
-
-    public static void func(){
-        throw new RuntimeException();
+        PriorityQueue<Integer> queue=new PriorityQueue<>();
+        queue.add(1);
+        queue.add(2);
+        System.out.println(queue.peek());
     }
 }

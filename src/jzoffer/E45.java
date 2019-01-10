@@ -11,12 +11,15 @@ import java.util.PriorityQueue;
 public class E45 {
     private int count = 0;
     private PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-    private PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(15, new Comparator<Integer>() {
-        @Override
-        public int compare(Integer o1, Integer o2) {
-            return o2 - o1;
-        }
-    });
+//    private PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(15, new Comparator<Integer>() {
+//        @Override
+//        public int compare(Integer o1, Integer o2) {
+//            return o2 - o1;
+//        }
+//    });
+
+    private PriorityQueue<Integer> maxHeap = new PriorityQueue<>((o1, o2) -> o2 - o1);
+
 
 
     public void Insert(Integer num) {
@@ -31,7 +34,6 @@ public class E45 {
             maxHeap.offer(filteredMinNum);
         }
         count++;
-
     }
 
     public Double GetMedian() {

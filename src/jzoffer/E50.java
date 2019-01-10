@@ -19,13 +19,15 @@ public class E50 {
         for(int i = 0; i < len; i++){
             str[i] = String.valueOf(numbers[i]);
         }
-        Arrays.sort(str,new Comparator<String>(){
-            public int compare(String s1, String s2) {
-                String c1 = s1 + s2;
-                String c2 = s2 + s1;
-                return c1.compareTo(c2);
-            }
-        });
+//        Arrays.sort(str,new Comparator<String>(){
+//            public int compare(String s1, String s2) {
+//                String c1 = s1 + s2;
+//                String c2 = s2 + s1;
+//                return c1.compareTo(c2);
+//            }
+//        });
+        Arrays.sort(str, (s1, s2) -> (s1 + s2).compareTo(s2 + s1));
+
         for(int i = 0; i < len; i++){
             sb.append(str[i]);
         }
