@@ -1,32 +1,55 @@
 package jzoffer;
 
 /**
- * 0-1背包问题
- *
- 有一个容量为 N 的背包，要用这个背包装下物品的价值最大，这些物品有两个属性：体积 w 和价值 v。
+ 给定两个字符串str1和str2, 长度分别稳M和N,返回两个字符串的最长公共子串
 
- 定义一个二维数组 dp 存储最大价值，其中 dp[i][j] 表示前 i 件物品体积不超过 j 的情况下能达到的最大价值。
- 设第 i 件物品体积为 w，价值为 v，根据第 i 件物品是否添加到背包中，可以分两种情况讨论：
 
- 第 i 件物品没添加到背包，总体积不超过 j 的前 i 件物品的最大价值就是总体积不超过 j 的前 i-1 件物品的最大价值，dp[i][j] = dp[i-1][j]。
- 第 i 件物品添加到背包中，dp[i][j] = dp[i-1][j-w] + v。
- 所以，dp[i][j] 等于上面两个的max
  */
 public class M2 {
-    public int knapsack(int W, int N, int[] weights, int[] values) {
-        int[][] dp = new int[N + 1][W + 1];
-        for (int i = 1; i <= N; i++) {
-            int w = weights[i - 1], v = values[i - 1];
-            for (int j = 1; j <= W; j++) {
-                if (j >= w) {
-                    dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - w] + v);
-                } else {
-                    dp[i][j] = dp[i - 1][j];
+
+    public static int[][] getdp(String str1,String str2){
+        int la=str1.length();
+        int lb=str2.length();
+        char[] str1array=str1.toCharArray();
+        char[] str2array=str2.toCharArray();
+        int[][] dp=new int[la+1][lb+1];//防止溢出
+        for (int i = 1; i <=la ; i++) {
+            for (int j = 1; j <=lb ; j++) {
+                if (str1array[i-1]==str2array[j-1]){
+                    dp[i][j]=dp[i-1][j-1]+1;
                 }
             }
         }
-        return dp[N][W];
+        return dp;
     }
 
-    //
+    public static String lcst1(String str1,String str2){
+        if (str1==null||str2==null||str1.equals("")||str2.equals("")){
+            return "";
+        }
+        int[][]dp=getdp(str1,str2);
+        int end=0;
+        int max=0;
+        for (int i = 1; i <=str1.length() ; i++) {
+            for (int j = 1; j <=str2.length() ; j++) {
+                if (dp[i][j]>max){
+                    end=i;
+                    max=dp[i][j];
+                }
+            }
+        }
+        return str1.substring(end-max,end);
+    }
+
+
+
+    public static void main(String[] args) {
+        String str1="abcde";
+        String str2="bebcd";
+        System.out.println(lcst1(str1,str2));
+    }
+
+
+
+
 }

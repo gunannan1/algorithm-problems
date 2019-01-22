@@ -12,6 +12,7 @@ package jzoffer;
  */
 public class M1 {
     public static int LCS(String str1, String str2){
+        //c[i][j]的含义是str1 0...i 与 str2 0...j的最长子序列
         int[][] c = new int[str1.length() + 1][str2.length() + 1];
         for(int row = 0; row <= str1.length(); row++)
             c[row][0] = 0;
