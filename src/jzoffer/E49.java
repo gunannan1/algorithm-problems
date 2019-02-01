@@ -30,7 +30,7 @@ public class E49 {
         return array[0];
     }
     public static void main(String[] args){
-        System.out.println(getTranslationCount(24));  //0
+        System.out.println(getTranslationCount(24));  //2
         System.out.println(getTranslationCount(1234));  //3
         System.out.println(getTranslationCount(12258)); //5
     }
