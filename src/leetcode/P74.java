@@ -10,27 +10,28 @@ package leetcode;
  */
 public class P74 {
     public boolean searchMatrix(int[][] matrix, int target) {
-        if(matrix.length==0){
-            return false;
-        }
-        int row=matrix.length;
-        int col=matrix[0].length;
-        int i=row-1;
-        int j=0;
-        while(i>=0&&j<col){
-            if(target>matrix[i][j]){
-                j++;
-            }
-            else if(target<matrix[i][j]){
-                i--;
-            }
-            else{
+
+        int row_num = matrix.length;
+        int col_num = matrix[0].length;
+
+        int begin = 0, end = row_num * col_num - 1;
+
+        while(begin <= end){
+            int mid = (begin + end) / 2;
+            int mid_value = matrix[mid/col_num][mid%col_num];
+
+            if( mid_value == target){
                 return true;
+
+            }else if(mid_value < target){
+                //Should move a bit further, otherwise dead loop.
+                begin = mid+1;
+            }else{
+                end = mid-1;
             }
-
         }
-        return false;
 
+        return false;
     }
 
 }
