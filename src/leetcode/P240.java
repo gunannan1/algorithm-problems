@@ -7,6 +7,9 @@ package leetcode;
  Integers in each row are sorted in ascending from left to right.
  Integers in each column are sorted in ascending from top to bottom.
 
+ 从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序
+
+ 和 E2 一样
  */
 public class P240 {
     public boolean searchMatrix(int[][] matrix, int target) {

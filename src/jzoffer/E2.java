@@ -5,6 +5,8 @@ package jzoffer;
  * 请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
 
  复杂度O（m+n），也可以对每一行/列来一次二分查找，复杂度nlogn
+
+ 和P240一样
  */
 public class E2 {
     public boolean Find(int target, int [][] array) {

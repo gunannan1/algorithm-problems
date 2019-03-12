@@ -6,6 +6,8 @@ package leetcode;
  Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
  Note: Given n will be a positive integer.
+
+ 跳台阶，1或2阶，等同于E9
  */
 public class P70 {
 
@@ -33,6 +35,7 @@ public class P70 {
     //Dynamic Programming
 //    Time complexity : O(n)O(n). Single loop upto nn.
 //    Space complexity : O(n)O(n). dpdp array of size nn is used.
+
     public int climbStairs(int n) {
         if (n == 1) {
             return 1;

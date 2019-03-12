@@ -3,6 +3,8 @@ package leetcode;
 /**
  * Given preorder and inorder traversal of a tree, construct the binary tree.
  * 根据前序遍历和中序遍历重建二叉树
+ *
+ * 和E5一样
  */
 public class P105 {
     public TreeNode buildTree(int[] preorder, int[] inorder) {

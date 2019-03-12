@@ -4,6 +4,8 @@ import java.util.Stack;
 
 /**
  * 栈实现队列
+ *
+ * 和 E7一样
  */
 public class P232 {
     class MyQueue {

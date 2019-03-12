@@ -1,6 +1,7 @@
 package leetcode;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
@@ -44,6 +45,7 @@ import java.util.Map;
 
  */
 public class P146 {
+
     public static void main(String[] args) {
         LRUCache cache=new LRUCache(2);
         cache.put(1, 1);
@@ -60,6 +62,54 @@ public class P146 {
     }
 
 }
+//更短写法。。。
+class LRUCache3<K, V> extends LinkedHashMap<K, V> {
+    private static final int MAX_ENTRIES = 3; //最大缓存数
+
+    protected boolean removeEldestEntry(Map.Entry eldest) {
+        return size() > MAX_ENTRIES;
+    }
+
+    LRUCache3() {
+        super(MAX_ENTRIES, 0.75f, true);
+    }
+}
+
+//linkedhashmap ，比较懒得仿佛
+class LRUCache2 {
+    private LinkedHashMap<Integer, Integer> map;
+    private final int MAX_CACHE_SIZE;
+    private final float loadFactor=0.75f;
+    public LRUCache2(int cacheSize) {
+        MAX_CACHE_SIZE = cacheSize;
+
+        // 这块就是设置一个hashmap的初始大小，同时最后一个true指的是让linkedhashmap按照访问顺序来进行排序
+        // ，最近访问的放在头，最老访问的就在尾
+        map = new LinkedHashMap<Integer, Integer>((int)Math.ceil(cacheSize / loadFactor) + 1, loadFactor, true){
+
+            // 这个意思就是说当map中的数据量大于指定的缓存个数的时候，就自动删除最老的数据
+            protected boolean removeEldestEntry(Map.Entry eldest) {
+                return size() > MAX_CACHE_SIZE;
+            }
+        };
+    }
+
+    public int get(int key) {
+        return map.get(key);
+    }
+
+
+    public void set(int key, int value) {
+        map.put(key, value);
+    }
+
+
+//        public int get(int key) {
+//            return map.getOrDefault(key, -1);
+//        }
+}
+
+
 
 class LRUCache {
     private Map<Integer,Node> map;

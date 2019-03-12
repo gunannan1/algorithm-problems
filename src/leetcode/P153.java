@@ -9,7 +9,7 @@ package leetcode;
 
  You may assume no duplicate exists in the array.
 
-翻转数组中最小的数字
+翻转数组中最小的数字，和 E12一样
  */
 public class P153 {
     public int findMin(int[] nums) {
