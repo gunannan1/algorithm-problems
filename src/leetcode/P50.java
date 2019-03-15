@@ -1,5 +1,9 @@
 package leetcode;
 
+/**
+ * 同 E17，
+ * 给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方。
+ */
 public class P50 {
 //    public double myPow(double x, int n) {
 ////        return Math.pow(x,n);

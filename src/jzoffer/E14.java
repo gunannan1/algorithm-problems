@@ -18,6 +18,7 @@ public class E14 {
 
     private int movingCountCore(int threshold, int rows, int cols,
                                 int row,int col,boolean[] visited) {
+        //如果判断客户继续走，则设定该点已访问，且返回1+四个方向一共能走的步数之和，不然返回0
         if(row>=0&&row<rows&&col>=0&&col<cols&&checkSum(threshold,row,col)&&!visited[row*cols+col]) {
             visited[row*cols+col]=true;
             return 1+movingCountCore(threshold, rows, cols,row,col+1,visited)
@@ -30,6 +31,7 @@ public class E14 {
 
     }
 
+    //判断是否满足行坐标列坐标之和的条件
     private boolean checkSum(int threshold, int row, int col) {
         int sum=0;
         while(row!=0){

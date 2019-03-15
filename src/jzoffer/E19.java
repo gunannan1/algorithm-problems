@@ -2,6 +2,8 @@ package jzoffer;
 
 /**
  * 在给定的单向列表的头指针和一个结点指针，定义在一个函数在O(1)时间删除该结点。
+ *
+ * 同 P237
  */
 public class E19 {
     public static ListNode delete(ListNode head, ListNode toBeDelete){

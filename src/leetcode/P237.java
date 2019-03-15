@@ -3,6 +3,7 @@ package leetcode;
 
 /**
  * 原题很蠢，这个用剑指offer 19题替代
+ * 同 E19
  */
 public class P237 {
     public static ListNode delete(ListNode head, ListNode toBeDelete){

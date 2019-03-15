@@ -16,6 +16,8 @@ package leetcode;
  Input: 10
  Output: 36
  Explanation: 10 = 3 + 3 + 4, 3 × 3 × 4 = 36.
+
+ 减绳子，同 E15
  */
 public class P343 {
     public int integerBreak(int n) {

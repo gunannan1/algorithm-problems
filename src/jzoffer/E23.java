@@ -3,6 +3,8 @@ package jzoffer;
 /**
  * 输入一个整数数组，实现一个函数来调整该数组中数字的顺序，使得所有的奇数位于数组的前半部分，
  * 所有的偶数位于位于数组的后半部分，并保证奇数和奇数，偶数和偶数之间的相对位置不变。
+ *
+ * 同 P905
 
  */
 public class E23 {
@@ -26,17 +28,20 @@ public class E23 {
         int oddCount=0;
         int oddBegin=0;
         int[] newArray=new int[array.length];
+        //统计奇数个数
         for(int i=0;i<array.length;i++){
             if((array[i]%2)==1){
                 oddCount++;
             }
         }
         for(int i=0;i<array.length;i++){
+            //第二次遍历，把奇数从新数组的0开始放入
             if((array[i]%2)==1){
                 newArray[oddBegin]=array[i];
                 oddBegin++;
             }
             else{
+                //把偶数从新数组的odd位开始放入
                 newArray[oddCount]=array[i];
                 oddCount++;
             }
