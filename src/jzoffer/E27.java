@@ -2,8 +2,12 @@ package jzoffer;
 
 /**
  * 输入两个单调递增的链表，输出两个链表合成后的链表，当然我们需要合成后的链表满足单调不减规则。
+ *
+ * 同 P21
  */
 public class E27 {
+
+    //递归做法，P21为迭代做法
     public ListNode Merge(ListNode list1,ListNode list2) {
         if(list1==null){
             return list2;

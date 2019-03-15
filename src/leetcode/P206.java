@@ -2,6 +2,7 @@ package leetcode;
 
 /**
  * 反转链表
+ * 同 E26
  */
 public class P206 {
     public ListNode reverseList(ListNode head) {

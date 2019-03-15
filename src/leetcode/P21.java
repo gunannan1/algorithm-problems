@@ -3,11 +3,16 @@ package leetcode;
 /**
  * Merge two sorted linked lists and return it as a new list.
  * The new list should be made by splicing together the nodes of the first two lists.
+ *
+ * 合并两个有序链表，同 E27
+ *
  */
 
 
 
 public class P21 {
+
+    //迭代做法，E27位递归做法
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode l3 = new ListNode(0);
         ListNode l4=l3;

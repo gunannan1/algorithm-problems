@@ -2,6 +2,7 @@ package jzoffer;
 
 /**
  * 反转链表
+ * 同 P206
  */
 public class E26 {
     public ListNode ReverseList(ListNode head) {

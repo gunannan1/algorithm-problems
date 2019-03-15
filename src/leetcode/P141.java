@@ -1,5 +1,9 @@
 package leetcode;
 
+/**
+ * 判断链表是否有环
+ * 部分同 E25
+ */
 public class P141 {
     public boolean hasCycle(ListNode head) {
         if(head==null){
