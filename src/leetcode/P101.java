@@ -2,8 +2,9 @@ package leetcode;
 
 /**
  * Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
-
- */
+ * 判断二叉树是否镜像对称
+ * 同 E30
+ * */
 public class P101 {
     public boolean isSymmetric(TreeNode root) {
         return isMirror(root, root);
