@@ -4,6 +4,8 @@ package leetcode;
  *Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
 
  You may assume that the array is non-empty and the majority element always exist in the array.
+
+ 同 E43（E43中此数不一定存在，需要二次判断）
  */
 public class P169 {
     public int majorityElement(int[] nums) {

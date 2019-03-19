@@ -23,6 +23,8 @@ import java.util.List;
 
  如果等于，并且前一个元素还未访问，那么就跳过这个元素。
 
+ 类似 E42
+
  */
 public class P47 {
     public List<List<Integer>> permuteUnique(int[] nums) {

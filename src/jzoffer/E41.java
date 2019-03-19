@@ -4,8 +4,11 @@ package jzoffer;
 /**
  *
  请实现两个函数，分别用来序列化和反序列化二叉树
+ 同 P297
  */
 public class E41 {
+
+    //可以简化，不然每次都新建了数组
     public int index = -1;
 
     String Serialize(TreeNode root) {

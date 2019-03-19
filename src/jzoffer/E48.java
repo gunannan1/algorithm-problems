@@ -2,6 +2,7 @@ package jzoffer;
 
 /**
  * 数字以01234567891011121314...的格式排列。在这个序列中，第5位（从0开始计）是5，第13位是1，第19位是4。求任意第n为对应的数字。
+ * 同 P400 可以跳过
  */
 public class E48 {
     public static int digitAtIndex(int index){

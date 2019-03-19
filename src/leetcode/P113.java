@@ -8,6 +8,8 @@ import java.util.List;
  Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
 
  Note: A leaf is a node with no children.
+ 找出全部二叉树中和为某一值的路径
+ 同 E38
  */
 public class P113 {
 //    List<List<Integer>> paths=new ArrayList<>();

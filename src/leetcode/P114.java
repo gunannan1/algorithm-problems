@@ -27,6 +27,7 @@ import java.util.Stack;
  *           6
  *
  *  把二叉树拆成链表
+ *  类似E40，不过E40为二叉搜索树
  */
 public class P114 {
 
@@ -35,6 +36,7 @@ public class P114 {
     public void flatten(TreeNode root) {
         if (root == null)
             return;
+
         flatten(root.right);
         flatten(root.left);
         root.right = prev;
