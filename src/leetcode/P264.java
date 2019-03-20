@@ -1,14 +1,21 @@
-package jzoffer;
+package leetcode;
 
 import java.util.ArrayList;
 
 /**
+ * Write a program to find the n-th ugly number.
  *
- 把只包含因子2、3和5的数称作丑数（Ugly Number）。
- 例如6、8都是丑数，但14不是，因为它包含因子7。 习惯上我们把1当做是第一个丑数。求按从小到大的顺序的第N个丑数。
- 同 P264
+ * Ugly numbers are positive numbers whose prime factors only include 2, 3, 5.
+ *
+ * Example:
+ *
+ * Input: n = 10
+ * Output: 12
+ * Explanation: 1, 2, 3, 4, 5, 6, 8, 9, 10, 12 is the sequence of the first 10 ugly numbers.
+ *
+ * 找到第n个丑数 同 E53
  */
-public class E53 {
+public class P264 {
 
     public int GetUglyNumber_Solution(int index) {
         if(index<=0){
@@ -39,5 +46,4 @@ public class E53 {
 
 
     }
-
 }

@@ -6,6 +6,9 @@ package leetcode;
  Note:
  You may assume k is always valid, 1 ≤ k ≤ BST's total elements.
 
+ 二叉搜索树，请找出其中的第k小的结点
+ 同 E60
+
 
  */
 public class P230 {

@@ -4,6 +4,7 @@ import java.util.Stack;
 
 /**
  * 给定一颗二叉搜索树，请找出其中的第k小的结点
+ * 同 P230
  */
 public class E60 {
     int index=0;

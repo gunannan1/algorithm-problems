@@ -9,6 +9,8 @@ package jzoffer;
  5    7    4    11
  3    7    16   5
  礼物的最大价值为1+12+5+7+7+16+5=53。
+
+ 矩阵最大价值和基本同 P64（最小价值和）
  */
 public class E51 {
     public static int getMaxVaule(int[][] data){

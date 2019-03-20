@@ -14,6 +14,8 @@ import java.util.Map;
 
  Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring,
  "pwke" is a subsequence and not a substring.
+
+ 字符串中最长不含重复字符的子字符串 同 E52
  */
 
 public class P3 {

@@ -17,6 +17,8 @@ package leetcode;
  Output: 7
  Explanation: Because the path 1→3→1→1→1 minimizes the sum.
 
+ 矩阵最小价值和，基本同 E51（最大价值和）
+
  */
 public class P64 {
     public int minPathSum(int[][] grid) {

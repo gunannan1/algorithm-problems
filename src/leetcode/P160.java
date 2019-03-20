@@ -1,5 +1,9 @@
 package leetcode;
 
+/**
+ * 找到两个链表的第一个公共节点
+ * 同 E56
+ */
 public class P160 {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA==null||headB==null){

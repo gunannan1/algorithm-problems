@@ -6,6 +6,7 @@ import java.util.HashMap;
 
 /**
  * 输入两个链表，找出它们的第一个公共结点。
+ * 同 P160
  */
 public class E56 {
 //    public ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2) {
