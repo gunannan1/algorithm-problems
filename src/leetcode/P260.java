@@ -17,6 +17,7 @@ package leetcode;
 
  diff &= -diff 得到出 diff 最右侧不为 0 的位，也就是不存在重复的两个元素在位级表示上最右侧不同的那一位，
  利用这一位就可以将两个元素区分开来。
+ 同 E63
  */
 public class P260 {
     public int[] singleNumber(int[] nums) {

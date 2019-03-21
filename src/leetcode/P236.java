@@ -10,8 +10,12 @@ package leetcode;
  that has both p and q as descendants (where we allow a node to be a descendant of itself).”
 
  Given the following binary tree:  root = [3,5,1,6,2,0,8,null,null,7,4]
+
+ 同 E80
  */
 public class P236 {
+
+    //普通树，在左右子树中查找是否存在 p 或者 q，如果 p 和 q 分别在两个子树中，那么就说明根节点就是最低公共祖先。
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null || root == p || root == q) return root;
         TreeNode left = lowestCommonAncestor(root.left, p, q);

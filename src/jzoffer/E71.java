@@ -11,6 +11,8 @@ import java.util.Map;
  当从该字符流中读出前六个字符“google"时，第一个只出现一次的字符是"l"。
  */
 public class E71 {
+
+    //用有序的hashmap统计每个字符出现次数
     HashMap<Character, Integer> map=new LinkedHashMap<>();
 
     public void Insert(char ch) {

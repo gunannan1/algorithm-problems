@@ -7,6 +7,8 @@ import java.util.LinkedList;
 
  */
 public class E74 {
+
+
     //时间复杂度On，空间复杂度On
     public int LastRemaining_Solution(int n, int m) {
         if(n<1||m<1){
@@ -31,6 +33,14 @@ public class E74 {
             s=(s+m)%i;
         }
         return s;
+    }
+
+    public int LastRemaining_Solution3(int n, int m) {
+        if (n == 0)     /* 特殊输入的处理 */
+            return -1;
+        if (n == 1)     /* 递归返回条件 */
+            return 0;
+        return (LastRemaining_Solution(n - 1, m) + m) % n;
     }
 
     //时间复杂度Onm，空间复杂度On

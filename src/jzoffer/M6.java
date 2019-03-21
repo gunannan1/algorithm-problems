@@ -6,13 +6,16 @@ package jzoffer;
 public class M6 {
     public static ListNode insert(ListNode head,int num){
         ListNode node=new ListNode(num);
+        //如果原链表为空，构建只有1个节点的环形链表
         if(head==null){
             node.next=node;
             return node;
         }
+
         ListNode pre=head;
         ListNode cur=head.next;
 
+        //限制条件为第一次遍历，找到需要插入的节点的位置
         while (cur!=head){
             if(pre.val<=num&&cur.val>=num){
                 break;

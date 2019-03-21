@@ -1,10 +1,29 @@
 package jzoffer;
 
+import java.util.HashSet;
+
 /**
  *
  一个整型数组里除了两个数字之外，其他的数字都出现了两次。请写程序找出这两个只出现一次的数字。
+
+ 同 P260
  */
 public class E63 {
+
+    //最容易理解的答案，不过不优
+    public int[] singleNumber(int[] nums) {
+        HashSet<Integer> h = new HashSet<>();
+        for(int n : nums){
+            if(h.contains(n)) h.remove(n);
+            else h.add(n);
+        }
+        Object[] t =h.toArray();
+        int[] result = new int[2];
+        result[0] = (int)t[0];
+        result[1] = (int)t[1];
+        return result;
+    }
+
 
     public void FindNumsAppearOnce2(int[] nums, int num1[], int num2[]) {
         int diff = 0;

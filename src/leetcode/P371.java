@@ -11,6 +11,9 @@ package leetcode;
  *
  * Input: a = -2, b = 3
  * Output: 1
+ *
+ * 两数相加。不用符号
+ * 同 E77
  */
 public class P371 {
     public int getSum(int num1, int num2) {

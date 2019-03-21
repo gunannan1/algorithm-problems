@@ -11,6 +11,8 @@ package jzoffer;
  程序员代码面试指南210页
  */
 public class M1 {
+
+    //求出子序列的最长长度
     public static int LCS(String str1, String str2){
         //c[i][j]的含义是str1 0...i 与 str2 0...j的最长子序列
         int[][] c = new int[str1.length() + 1][str2.length() + 1];

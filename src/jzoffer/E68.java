@@ -8,7 +8,10 @@ public class E68 {
     public String LeftRotateString(String str,int n) {
         char[] chars = str.toCharArray();
         if(chars.length < n) return "";
+        //先反转整个字符串
         reverse(chars,0,n-1);
+
+        //然后把两部分分别反转，就是答案
         reverse(chars,n,chars.length-1);
         reverse(chars,0,chars.length-1);
         return new String(chars);

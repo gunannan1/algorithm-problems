@@ -1,5 +1,9 @@
 package leetcode;
 
+/**
+ * 股票买进卖出的最大值
+ * 同 E75
+ */
 public class P121 {
 	public int maxProfit(int[] prices) {
         int minprice=Integer.MAX_VALUE;

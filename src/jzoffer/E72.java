@@ -1,21 +1,33 @@
 package jzoffer;
 
+import java.util.AbstractMap;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
 /**
  *﻿n个骰子的点数
  把n个骰子扔在地上，所有骰子朝上一面的点数之和为S。输入n，打印出S的所有可能的值出现的概率。
  */
 public class E72 {
-    public int getNSumCount(int n, int sum){
-        if(n<1||sum<n||sum>6*n){
-            return 0;
-        }
-        if(n==1){
-            return  1;
-        }
-        int resCount=0;
-        resCount=getNSumCount(n-1,sum-1)+getNSumCount(n-1,sum-2)+
-                getNSumCount(n-1,sum-3)+getNSumCount(n-1,sum-4)+
-                getNSumCount(n-1,sum-5)+getNSumCount(n-1,sum-6);
-        return resCount;
+    public List<Map.Entry<Integer, Double>> dicesSum(int n) {
+        final int face = 6;
+        final int pointNum = face * n;
+        long[][] dp = new long[n + 1][pointNum + 1];
+
+        for (int i = 1; i <= face; i++)
+            dp[1][i] = 1;
+
+        for (int i = 2; i <= n; i++)
+            for (int j = i; j <= pointNum; j++)     /* 使用 i 个骰子最小点数为 i */
+                for (int k = 1; k <= face && k <= j; k++)
+                    dp[i][j] += dp[i - 1][j - k];
+
+        final double totalNum = Math.pow(6, n);
+        List<Map.Entry<Integer, Double>> ret = new ArrayList<>();
+        for (int i = n; i <= pointNum; i++)
+            ret.add(new AbstractMap.SimpleEntry<>(i, dp[n][i] / totalNum));
+
+        return ret;
     }
 }

@@ -8,6 +8,7 @@ import java.util.Stack;
  * Given a binary tree, find its maximum depth.
 
  The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+ 求二叉树深度 同 E61
  */
 public class P104 {
     public int maxDepth(TreeNode root) {

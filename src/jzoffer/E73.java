@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * 从扑克牌中随机抽5张牌，判断是不是连续的。大小王可以看做任何数字，或者看成0更方便
+ *
  */
 public class E73 {
     public boolean isContinuous(int [] numbers) {
