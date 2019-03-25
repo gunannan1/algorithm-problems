@@ -1,7 +1,9 @@
 package leetcode;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * Given a string, find the length of the longest substring without repeating characters.
@@ -41,6 +43,8 @@ public class P3 {
 //        return max;
 //
 //    }
+
+    //滑动窗口优化版
     public static int lengthOfLongestSubstring(String s) {
         int n = s.length(), ans = 0;
         Map<Character, Integer> map = new HashMap<>(); // current index of character
@@ -54,6 +58,25 @@ public class P3 {
         }
         return ans;
     }
+
+    //滑动窗口，好理解点，最坏情况O（2n）
+    public int lengthOfLongestSubstring2(String s) {
+        int n = s.length();
+        Set<Character> set = new HashSet<>();
+        int ans = 0, i = 0, j = 0;
+        while (i < n && j < n) {
+            // try to extend the range [i, j]
+            if (!set.contains(s.charAt(j))){
+                set.add(s.charAt(j++));
+                ans = Math.max(ans, j - i);
+            }
+            else {
+                set.remove(s.charAt(i++));
+            }
+        }
+        return ans;
+    }
+
 
         public static void main(String[] args) {
         System.out.println(lengthOfLongestSubstring("abcabcbb"));

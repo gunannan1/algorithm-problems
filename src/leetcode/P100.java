@@ -5,6 +5,8 @@ package leetcode;
 
  Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
 
+ 判断两棵树是否相等
+
 
  */
 public class P100 {
@@ -22,11 +24,6 @@ public class P100 {
 
 
     }
-
-    public static void main(String[] args) {
-
-    }
-
 
 
 }
