@@ -1,10 +1,21 @@
 package leetcode;
 
 /**
- * Given a linked list, swap every two adjacent nodes and return its head.
+ Given a linked list, swap every two adjacent nodes and return its head.
+
+ You may not modify the values in the list's nodes, only nodes itself may be changed.
+
+
+
+ Example:
+
+ Given 1->2->3->4, you should return the list as 2->1->4->3.
+
+ 将单链表每2个节点之间逆序
 
  */
 public class P24 {
+    //递归
     public ListNode swapPairs(ListNode head) {
         if ((head == null)||(head.next == null)){
             return head;
@@ -16,6 +27,7 @@ public class P24 {
 
     }
 
+    //迭代
     public ListNode swapPairs2(ListNode head) {
         ListNode node = new ListNode(-1);
         node.next = head;

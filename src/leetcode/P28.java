@@ -6,6 +6,7 @@ package leetcode;
  Implement strStr().
 
  Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+ str2在str1的最早出现位置（java indexof 函数）
  */
 public class P28 {
     public static int strStr(String haystack, String needle) {

@@ -9,6 +9,8 @@ package leetcode;
 
  Now consider if some obstacles are added to the grids. How many unique paths would there be?
 
+ 设置障碍后，机器人走格子的走法
+
 
  */
 public class P63 {

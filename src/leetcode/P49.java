@@ -2,6 +2,22 @@ package leetcode;
 
 import java.util.*;
 
+/**
+ *
+ Given an array of strings, group anagrams together.
+
+ Example:
+
+ Input: ["eat", "tea", "tan", "ate", "nat", "bat"],
+ Output:
+ [
+ ["ate","eat","tea"],
+ ["nat","tan"],
+ ["bat"]
+ ]
+
+ 在字符串数组中，找到字母相同的字符串，并分组输出
+ */
 public class P49 {
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> res=new ArrayList<>();
@@ -26,9 +42,5 @@ public class P49 {
 
     }
 
-    public static void main(String[] args) {
-
-
-    }
 
 }

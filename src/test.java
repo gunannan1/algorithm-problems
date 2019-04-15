@@ -11,5 +11,10 @@ public class test {
         queue.add(2);
         System.out.println(queue.peek());
 
+        String a="9";
+        boolean b=Character.isDigit('9');
+
+        System.out.println(b);
+
     }
 }

@@ -32,6 +32,8 @@ import java.util.List;
  [1,2,2],
  [5]
  ]
+ 给一个数组和一个target数，找到所有相加是target的可能组合 P40
+
  */
 public class P40 {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
@@ -47,20 +49,22 @@ public class P40 {
                               int start, int target, final int[] candidates) {
         if(target==0){
             result.add(new ArrayList<>(tempList));
+            return;
         }
-        else {
-            for(int i=start;i<candidates.length;i++){
-                if(i>start&&candidates[i]==candidates[i-1]){
-                    continue;
-                }
-                if(target>=candidates[i]){
-                    tempList.add(candidates[i]);
-                    backtracking(tempList,result,i+1,target-candidates[i],candidates);
-                    tempList.remove(tempList.size()-1);
-                }
+        for(int i=start;i<candidates.length;i++){
+            /**
+             * 跳过重复，不然会出现重复答案
+             */
+            if(i>start&&candidates[i]==candidates[i-1]){
+                continue;
             }
-
+            if(target>=candidates[i]){
+                tempList.add(candidates[i]);
+                backtracking(tempList,result,i+1,target-candidates[i],candidates);
+                tempList.remove(tempList.size()-1);
+            }
         }
+
 
     }
 

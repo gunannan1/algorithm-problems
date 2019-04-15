@@ -15,69 +15,75 @@ package leetcode;
  Input: "cbbd"
 
  Output: "bb"
+
+ 最长连续回文串
+
  */
 
 public class P5 {
-    boolean[][] dp;
 
-    public String longestPalindrome(String s)
-    {
-        if(s.length() == 0)
-        {
+    //动态规划
+    public String longestPalindrome2(String s) {
+        if (s == null || s.length() < 1) return "";
+
+        int n = s.length();
+        String res = null;
+
+        boolean[][] dp = new boolean[n][n];
+
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = i; j < n; j++) {
+                dp[i][j] = s.charAt(i) == s.charAt(j) && (j - i < 3 || dp[i + 1][j - 1]);
+
+                if (dp[i][j] && (res == null || j - i + 1 > res.length())) {
+                    res = s.substring(i, j + 1);
+                }
+            }
+        }
+
+        return res;
+    }
+
+
+    //暴力解
+    public String longestPalindrome(String s){
+        if(s.equals("")){
             return "";
         }
-        if(s.length() == 1)
-        {
+        if(s.length()==1){
             return s;
         }
+        int max=0;
+        String res=s.substring(0,1);
+        for(int i=s.length();i>=0;i--){
+            for(int j=0;j<s.length()&&i+j<=s.length();j++){
+                String sub=s.substring(j,i+j);
+                int count=0;
+                for(int k=0;k<sub.length()/2;k++){
+                    if(sub.charAt(k)==sub.charAt(sub.length()-1-k)){
+                        count++;
 
-        dp = new boolean[s.length()][s.length()];
-
-        int i,j;
-
-        for( i = 0; i < s.length(); i++)
-        {
-            for( j = 0; j < s.length(); j++)
-            {
-                if(i >= j)
-                {
-                    dp[i][j] = true; //当i == j 的时候，只有一个字符的字符串; 当 i > j 认为是空串，也是回文
-
-                }
-                else
-                {
-                    dp[i][j] = false; //其他情况都初始化成不是回文
-                }
-            }
-        }
-
-        int k;
-        int maxLen = 1;
-        int rf = 0, rt = 0;
-        for( k = 1; k < s.length(); k++)
-        {
-            for( i = 0;  k + i < s.length(); i++)
-            {
-                j = i + k;
-                if(s.charAt(i) != s.charAt(j)) //对字符串 s[i....j] 如果 s[i] != s[j] 那么不是回文
-                {
-                    dp[i][j] = false;
-                }
-                else  //如果s[i] == s[j] 回文性质由 s[i+1][j-1] 决定
-                {
-                    dp[i][j] = dp[i+1][j-1];
-                    if(dp[i][j])
-                    {
-                        if(k + 1 > maxLen)
-                        {
-                            maxLen = k + 1;
-                            rf = i;
-                            rt = j;
-                        }
+                    }
+                    else {
+                        break;
                     }
                 }
+                if(count==sub.length()/2&&count>max){
+                    max=count;
+                    res=sub;
+                }
+
+
             }
         }
-        return s.substring(rf, rt+1);
+        return res;
+    }
+
+
+
+    public static void main(String[] args) {
+        P5 p5=new P5();
+        System.out.println(p5.longestPalindrome("bb"));
+
     }
 }

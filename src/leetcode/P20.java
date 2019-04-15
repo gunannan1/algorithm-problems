@@ -6,6 +6,29 @@ import java.util.Stack;
  * Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
  The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+
+ Example 1:
+
+ Input: "()"
+ Output: true
+ Example 2:
+
+ Input: "()[]{}"
+ Output: true
+ Example 3:
+
+ Input: "(]"
+ Output: false
+ Example 4:
+
+ Input: "([)]"
+ Output: false
+ Example 5:
+
+ Input: "{[]}"
+ Output: true
+
+ 各种括号，判断是不是符合定义的
  */
 
 public class P20 {

@@ -1,6 +1,8 @@
 package jzoffer;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  *﻿0，1，...，n-1这n个数字排成一个圆圈，从数字0开始，每次从这个圆圈里剔除第m个数字，求剩下的最后一个数字
@@ -10,6 +12,7 @@ public class E74 {
 
 
     //时间复杂度On，空间复杂度On
+    //模拟一个环，暴力解法
     public int LastRemaining_Solution(int n, int m) {
         if(n<1||m<1){
             return -1;
@@ -25,6 +28,8 @@ public class E74 {
         }
         return list.get(0);
     }
+
+
     //时间复杂度On，空间复杂度O1
     public int LastRemaining_Solution2(int n,int m) {
         if(n==0) return -1;
@@ -34,6 +39,7 @@ public class E74 {
         }
         return s;
     }
+
 
     public int LastRemaining_Solution3(int n, int m) {
         if (n == 0)     /* 特殊输入的处理 */

@@ -7,6 +7,7 @@ import java.util.List;
  * Given a digit string, return all possible letter combinations that the number could represent.
 
  A mapping of digit to letters (just like on the telephone buttons) is given below.
+ 手机上的数字与字母转换（9宫格这样的）
  */
 public class P17 {
     private static final String[] KEYS = { "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };

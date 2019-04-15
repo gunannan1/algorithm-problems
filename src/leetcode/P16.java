@@ -7,6 +7,7 @@ import java.util.Arrays;
  * Return the sum of the three integers. You may assume that each input would have exactly one solution.
 
 O(N2)
+ 找到三个和最接近target的数
  */
 public class P16 {
     public int threeSumClosest(int[] nums, int target) {
@@ -44,7 +45,6 @@ public class P16 {
 
         }
         return val;
-
 
     }
 }

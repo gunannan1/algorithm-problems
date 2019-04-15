@@ -6,6 +6,10 @@ package leetcode;
  If the last word does not exist, return 0.
 
  Note: A word is defined as a character sequence consists of non-space characters only.
+
+ 字符串中最后一个单词的长度
+
+
  */
 public class P58 {
     public static int lengthOfLastWord(String s) {

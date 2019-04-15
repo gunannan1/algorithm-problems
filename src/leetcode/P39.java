@@ -32,8 +32,38 @@ import java.util.List;
  [2,3,3],
  [3,5]
  ]
+
+ 给一个数组和一个target数，找到所有相加是target的可能组合 P39（不含相同元素，set元素可以用多次）
  */
 public class P39 {
+
+    //感觉下面这个更符合思路
+
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        List<List<Integer>> combinations = new ArrayList<>();
+        backtracking(new ArrayList<>(), combinations, 0, target, candidates);
+        return combinations;
+    }
+
+    private void backtracking(List<Integer> tempCombination, List<List<Integer>> combinations,
+                              int start, int target, final int[] candidates) {
+
+        if (target == 0) {
+            combinations.add(new ArrayList<>(tempCombination));
+            return;
+        }
+        for (int i = start; i < candidates.length; i++) {
+            if (candidates[i] <= target) {
+                tempCombination.add(candidates[i]);
+                backtracking(tempCombination, combinations, i, target - candidates[i], candidates);
+                tempCombination.remove(tempCombination.size() - 1);
+            }
+        }
+    }
+
+
+
+
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result=new ArrayList<>();
         List<Integer> tempResult=new ArrayList<>();
@@ -55,31 +85,6 @@ public class P39 {
                 tempList.add(nums[i]);
                 findSolution(list,tempList,nums,remain-nums[i],i);
                 tempList.remove(tempList.size()-1);
-            }
-        }
-    }
-
-    //。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
-    //感觉下面这个更符合思路
-
-    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-        List<List<Integer>> combinations = new ArrayList<>();
-        backtracking(new ArrayList<>(), combinations, 0, target, candidates);
-        return combinations;
-    }
-
-    private void backtracking(List<Integer> tempCombination, List<List<Integer>> combinations,
-                              int start, int target, final int[] candidates) {
-
-        if (target == 0) {
-            combinations.add(new ArrayList<>(tempCombination));
-            return;
-        }
-        for (int i = start; i < candidates.length; i++) {
-            if (candidates[i] <= target) {
-                tempCombination.add(candidates[i]);
-                backtracking(tempCombination, combinations, i, target - candidates[i], candidates);
-                tempCombination.remove(tempCombination.size() - 1);
             }
         }
     }

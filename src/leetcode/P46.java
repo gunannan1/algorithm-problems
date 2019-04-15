@@ -19,6 +19,8 @@ import java.util.List;
  [3,2,1]
  ]
 
+ 数组的全排序（不含相同元素）
+
  */
 public class P46 {
     public List<List<Integer>> permute(int[] nums) {

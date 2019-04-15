@@ -13,6 +13,8 @@ package leetcode;
 
  Input: a = "1010", b = "1011"
  Output: "10101"
+
+ 字符串实现二进制加法
  */
 public class P67 {
     public String addBinary(String a, String b) {

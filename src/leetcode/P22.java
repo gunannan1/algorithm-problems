@@ -15,6 +15,7 @@ import java.util.List;
  "()(())",
  "()()()"
  ]
+ 生成符合要求的括号字符串（backtrack）
  */
 public class P22 {
     public List<String> generateParenthesis(int n) {

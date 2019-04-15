@@ -6,6 +6,8 @@ package leetcode;
  Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
 
  You may assume nums1 and nums2 cannot be both empty.
+
+ 找到两个排序数组的中位数
  */
 public class P4 {
     public double findMedianSortedArrays(int[] A, int[] B) {
