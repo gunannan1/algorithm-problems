@@ -22,6 +22,8 @@ package leetcode;
  Output: 4
  Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
  Total amount you can rob = 1 + 3 = 4.
+
+ 数组，不能选相邻元素，问所选元素最大值，环形情况（数组首尾算相邻）
  */
 public class P213 {
     public int rob(int[] nums) {

@@ -21,6 +21,8 @@ package leetcode;
 
  Input: 28
  Output: "AB"
+
+ 进制（1=A,2=B,26=Z,27=AB...）
  */
 public class P168 {
     public String convertToTitle(int n) {

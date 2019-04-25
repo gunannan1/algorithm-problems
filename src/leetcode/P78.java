@@ -24,6 +24,7 @@ import java.util.List;
  []
  ]
  回溯法
+ 求出一个集合所有的子集(不含蓄相同元素)
  */
 public class P78 {
     public List<List<Integer>> subsets(int[] nums) {

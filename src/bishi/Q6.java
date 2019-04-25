@@ -19,6 +19,8 @@ public class Q6 {
         int b=scanner.nextInt();
         double ab=b*Math.log(a);
         double ba=a*Math.log(b);
+        String a="a";
+        char c=' ';
 
 
         if(ab>ba){

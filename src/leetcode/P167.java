@@ -15,6 +15,8 @@ package leetcode;
  Input: numbers = [2,7,11,15], target = 9
  Output: [1,2]
  Explanation: The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
+ 
+ 在有序数组中找出两个数，使它们的和为target
 
  */
 public class P167 {

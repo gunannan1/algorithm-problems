@@ -17,6 +17,8 @@ import java.util.Arrays;
  Output: 2
  Explanation: 13 = 4 + 9.
 
+ 组成整数的最小平方数数量
+
  */
 public class P279 {
     public int numSquares(int n) {

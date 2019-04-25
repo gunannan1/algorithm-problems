@@ -22,7 +22,7 @@ import java.util.List;
  [1,2],
  []
  ]
-
+ 求出一个集合所有的子集（含有相同元素）
  */
 public class P90 {
     public List<List<Integer>> subsetsWithDup(int[] nums) {

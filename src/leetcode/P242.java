@@ -11,6 +11,8 @@ package leetcode;
  *
  * Input: s = "rat", t = "car"
  * Output: false
+ *
+ * 两个字符串是否包含完全相同的字母
  */
 public class P242 {
     public boolean isAnagram(String s, String t) {

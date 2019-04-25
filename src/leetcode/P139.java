@@ -26,6 +26,7 @@ import java.util.List;
 
  Input: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
  Output: false
+ 字符串按单词列表分割
  */
 public class P139 {
     public boolean wordBreak(String s, List<String> wordDict) {

@@ -17,6 +17,8 @@ import java.util.List;
  ["aa","b"],
  ["a","a","b"]
  ]
+
+ 分割字符串使得每个部分都是回文数
  */
 public class P131 {
     public List<List<String>> partition(String s) {

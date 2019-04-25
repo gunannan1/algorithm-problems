@@ -24,6 +24,8 @@ package leetcode;
  00011
 
  Output: 3
+
+ 矩阵中的连通分量数目（DFS）
  */
 public class P200 {
     private int n;

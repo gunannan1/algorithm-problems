@@ -9,7 +9,6 @@ package leetcode;
  二叉搜索树，请找出其中的第k小的结点
  同 E60
 
-
  */
 public class P230 {
     private int cnt = 0;

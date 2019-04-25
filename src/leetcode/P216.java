@@ -21,6 +21,8 @@ import java.util.List;
  Input: k = 3, n = 9
  Output: [[1,2,6], [1,3,5], [2,3,4]]
 
+ 从 1-9 数字中选出 k 个数不重复的数，使得它们的和为 n。
+
  */
 public class P216 {
     public List<List<Integer>> combinationSum3(int k, int n) {

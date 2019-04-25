@@ -18,6 +18,8 @@ package leetcode;
  /  \
  15   7
  return its minimum depth = 2.
+
+ 根节点到叶子节点最短路径
  */
 public class P111 {
     public int minDepth(TreeNode root) {

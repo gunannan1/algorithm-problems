@@ -5,7 +5,7 @@ package leetcode;
 
  You may assume that the array is non-empty and the majority element always exist in the array.
 
- 同 E43（E43中此数不一定存在，需要二次判断）
+ 数组中出现次数超过一半的数字（这个数一定存在），同 E43（E43中此数不一定存在，需要二次判断）
  */
 public class P169 {
     public int majorityElement(int[] nums) {

@@ -7,6 +7,8 @@ package leetcode;
 
  the depth of the two subtrees of every node never differ by more than 1.
 
+ 从有序数组中构造二叉查找树
+
  */
 public class P108 {
     public TreeNode sortedArrayToBST(int[] nums) {

@@ -20,6 +20,8 @@ package leetcode;
  7    2      1
  return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
 
+ 判断树中路径和是否等于一个数
+
 
  */
 public class P112 {

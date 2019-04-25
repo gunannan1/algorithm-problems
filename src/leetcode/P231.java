@@ -17,6 +17,8 @@ package leetcode;
  *
  * Input: 218
  * Output: false
+ *
+ * 判断一个数是不是2的n次方
  */
 public class P231 {
     public boolean isPowerOfTwo(int n) {

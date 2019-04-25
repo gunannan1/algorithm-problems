@@ -22,6 +22,8 @@ import java.util.List;
 
  Explanation: All root-to-leaf paths are: 1->2->5, 1->3
 
+ 二叉树根节点到叶子节点的全路径
+
  */
 public class P257 {
     public List<String> binaryTreePaths(TreeNode root) {

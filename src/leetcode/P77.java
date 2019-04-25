@@ -18,6 +18,8 @@ import java.util.List;
  [1,3],
  [1,4],
  ]
+
+ 1-n的数，从中选k个，求所有组合（非排序）
  */
 public class P77 {
     public List<List<Integer>> combine(int n, int k) {
@@ -37,10 +39,5 @@ public class P77 {
                 tempList.remove(tempList.size()-1);
             }
         }
-
     }
-
-
-
-
-    }
+}

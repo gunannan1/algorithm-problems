@@ -23,6 +23,8 @@ import java.util.List;
  ((2*(3-4))*5) = -10
  (2*((3-4)*5)) = -10
  (((2*3)-4)*5) = 10
+
+ 给数学表达式加括号，求出全部不同的答案
  */
 public class P241 {
     public List<Integer> diffWaysToCompute(String input) {

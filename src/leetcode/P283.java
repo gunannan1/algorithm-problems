@@ -11,6 +11,8 @@ package leetcode;
 
  You must do this in-place without making a copy of the array.
  Minimize the total number of operations.
+
+ 把0移动数组末尾，不影响别的数的排序
  */
 public class P283 {
     public void moveZeroes(int[] nums) {

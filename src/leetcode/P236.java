@@ -12,6 +12,8 @@ package leetcode;
  Given the following binary tree:  root = [3,5,1,6,2,0,8,null,null,7,4]
 
  同 E80
+ 两个节点的最低公共祖先节点
+
  */
 public class P236 {
 
