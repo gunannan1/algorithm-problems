@@ -10,6 +10,9 @@ import java.util.List;
  Find all the elements that appear twice in this array.
 
  Could you do it without extra space and in O(n) runtime?
+
+ 找出数组中所有出现2次的数字
+
  */
 public class P442 {
     public static List<Integer> findDuplicates(int[] nums) {

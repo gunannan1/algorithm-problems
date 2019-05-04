@@ -13,6 +13,8 @@ package leetcode;
 
  Input: 14
  Output: false
+ 判断一个数是不是某数的平方
+
 
  平方序列：1,4,9,16,..
 

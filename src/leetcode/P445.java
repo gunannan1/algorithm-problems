@@ -18,6 +18,8 @@ import java.util.Stack;
 
  Input: (7 -> 2 -> 4 -> 3) + (5 -> 6 -> 4)
  Output: 7 -> 8 -> 0 -> 7
+
+ 给两个用链表表示的数，求他们的和
  */
 public class P445 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

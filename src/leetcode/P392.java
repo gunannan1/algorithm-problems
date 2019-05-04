@@ -19,7 +19,8 @@ package leetcode;
  s = "axc", t = "ahbgdc"
 
  Return false.
- 判断是否为子序列
+ 一个字符串是否为另一个的子序列（非连续，顺序相同就行）
+
  */
 public class P392 {
     public boolean isSubsequence(String s, String t) {

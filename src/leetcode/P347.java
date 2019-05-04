@@ -13,6 +13,7 @@ import java.util.*;
 
  Input: nums = [1], k = 1
  Output: [1]
+ 找到数组中出现频率最多的k个数
  */
 public class P347 {
 

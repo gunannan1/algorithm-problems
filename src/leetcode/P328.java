@@ -15,6 +15,7 @@ package leetcode;
 
  Input: 2->1->3->5->6->4->7->NULL
  Output: 2->3->6->7->1->5->4->NULL
+ 链表元素按奇偶聚集
  */
 public class P328 {
     public ListNode oddEvenList(ListNode head) {

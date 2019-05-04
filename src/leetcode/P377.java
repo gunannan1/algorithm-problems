@@ -21,7 +21,7 @@ import java.util.Arrays;
  (3, 1)
 
  Note that different sequences are counted as different combinations.
-
+ 给定一个数组和target，找到所有相加是target的数字排序后（非单纯组合）的数量
  */
 public class P377 {
     public int combinationSum4(int[] nums, int target) {

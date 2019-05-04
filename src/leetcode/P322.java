@@ -18,6 +18,8 @@ import java.util.Arrays;
 
  Input: coins = [2], amount = 3
  Output: -1
+
+ 找零钱的最少硬币数
  */
 public class P322 {
     public int coinChange(int[] coins, int amount) {

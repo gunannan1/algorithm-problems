@@ -14,6 +14,8 @@ package leetcode;
  Input: [1,2,3,0,2]
  Output: 3
  Explanation: transactions = [buy, sell, cooldown, buy, sell]
+
+ 股票交易，卖出后冷却一天
  */
 public class P309 {
     public int maxProfit(int[] prices) {
@@ -24,6 +26,7 @@ public class P309 {
             prev_sell = sell;
             sell = Math.max(prev_buy + price, prev_sell);
         }
+
         return sell;
     }
 }

@@ -24,6 +24,8 @@ import java.util.Arrays;
  Output: false
 
  Explanation: The array cannot be partitioned into equal sum subsets.
+
+ 划分数组为和相等的两部分
  */
 public class P416 {
     public boolean canPartition(int[] nums) {

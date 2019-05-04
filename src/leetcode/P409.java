@@ -20,9 +20,12 @@ package leetcode;
  *
  * Explanation:
  * One longest palindrome that can be built is "dccaccd", whose length is 7.
+ *
+ * 计算一组字符集合可以组成的回文字符串的最大长度
  */
 public class P409 {
     public int longestPalindrome(String s) {
+
         int[] cnts = new int[256];
         for (char c : s.toCharArray()) {
             cnts[c]++;
